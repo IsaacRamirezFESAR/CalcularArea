@@ -72,7 +72,7 @@ function calcularAreaTriangulo() {
 function calcularAreaCirculo() {
     const radio = Number(document.getElementById("radio").value);
     const area = calcularArea("circulo", radio);
-    document.getElementById("resultado").innerHTML = "El área del circulo es: " + area;
+    document.getElementById("resultado").innerHTML = "El área del círculo es: " + area;
 }
 function calcularAreaTrapecio() {
     const baseMa = Number(document.getElementById("baseMayor").value);
